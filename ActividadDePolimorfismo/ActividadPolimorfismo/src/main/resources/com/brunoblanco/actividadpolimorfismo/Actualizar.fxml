@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="798.0" style="-fx-background-color: CAF1FF;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.brunoblanco.actividadpolimorfismo.Controller.ActualizarController">
+   <children>
+      <Label fx:id="Title" layoutX="295.0" layoutY="43.0" prefHeight="37.0" prefWidth="209.0" text="Editar Alumno" textFill="#0c04ff">
+         <font>
+            <Font name="Comic Sans MS" size="26.0" />
+         </font>
+      </Label>
+      <Text fx:id="ActualizarText" fill="#0c04ff" layoutX="32.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingrese el ID del alumno a actualizar" wrappingWidth="209.0">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="update" layoutX="32.0" layoutY="160.0" prefHeight="40.0" prefWidth="209.0" style="-fx-border-color: #A45D83;" />
+      <TextField fx:id="nombreTextField" layoutX="280.0" layoutY="157.0" prefHeight="40.0" prefWidth="209.0" style="-fx-border-color: #A45D83;" />
+      <TextField fx:id="IdTextField" layoutX="553.0" layoutY="158.0" prefHeight="40.0" prefWidth="209.0" style="-fx-border-color: #A45D83;" />
+      <Button fx:id="hechoButton1" layoutX="287.0" layoutY="231.0" mnemonicParsing="false" onMouseClicked="#editarClick" prefHeight="48.0" prefWidth="174.0" style="-fx-background-color: #00B2FF;" text="Hecho" textFill="#0c04ff">
+         <font>
+            <Font name="Comic Sans MS" size="16.0" />
+         </font>
+      </Button>
+      <Text fx:id="IdText" fill="#0c04ff" layoutX="563.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingrese el id" wrappingWidth="188.837890625">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="NameText1" fill="#0c04ff" layoutX="280.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingrese el nombre" wrappingWidth="188.837890625">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Text>
+      <Button fx:id="VolverButton" layoutX="317.0" layoutY="336.0" mnemonicParsing="false" onMouseClicked="#volverClick" prefHeight="26.0" prefWidth="114.0" style="-fx-background-color: #00B2FF;" text="Volver" textFill="#0c04ff">
+         <font>
+            <Font name="Comic Sans MS" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
